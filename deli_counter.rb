@@ -14,7 +14,11 @@ end
 
 
 def take_a_number(katz_deli, new_customer)
+  katz_deli.each_with_index
+  
 
 #new customers take a number
+
+#puts the person's name along with their position in line.
 
 end
