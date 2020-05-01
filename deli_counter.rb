@@ -10,6 +10,7 @@ def line(deli)
     deli.each_with_index do |customer, index|
       current_line << "#{index + 1}. #{customer}"
     end
+    puts current_line
   end
 end
 
