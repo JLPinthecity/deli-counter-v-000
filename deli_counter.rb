@@ -11,8 +11,8 @@ def line(katz_deli)
     katz_deli.each_with_index do |customer, index|
       binding.pry
       line = []
-      new_customer = "#{index + 1}. #{customer}"
-      line << new_customer
+      line << "#{index + 1}. #{customer}"
+      line
      binding.pry
     end
     end
