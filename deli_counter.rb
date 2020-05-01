@@ -14,12 +14,13 @@ end
 
 
 def take_a_number(katz_deli, new_customer)
+  katz_deli << new_customer 
   katz_deli.each_with_index do |customer_in_line|
-    
+  
+  
+  end
 
 
 #new customers take a number
-
 #puts the person's name along with their position in line.
-
 end
