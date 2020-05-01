@@ -2,12 +2,12 @@
 require 'pry'
 
 
-def line(katz_deli)
-  if katz_deli.empty? 
+def line(deli)
+  if deli.empty? 
     puts "The line is currently empty."
   else
     line = []
-    katz_deli.each_with_index do |customer, index|
+    deli.each_with_index do |customer, index|
       line << "#{index + 1}. #{customer}"
     end
     line.join(" ")
