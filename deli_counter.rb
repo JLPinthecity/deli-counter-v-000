@@ -5,7 +5,7 @@ katz_deli = []
 def line
  #shows everyone their current place in the line.
 
-  #if no one 
+  #if no one
   #  "The line is currently empty."
 
 end
