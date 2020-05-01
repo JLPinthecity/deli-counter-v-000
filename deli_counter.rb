@@ -15,7 +15,7 @@ def line(katz_deli)
       line
       binding.pry
 
-    end 
+    end
     line.join(", ")
       puts "The line is currently: #{line}"
 
