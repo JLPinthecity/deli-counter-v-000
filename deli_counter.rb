@@ -2,7 +2,7 @@
 
 katz_deli = []
 
-def line
+def line(katz_deli)
  #shows everyone their current place in the line.
 
   #if no one
@@ -17,7 +17,7 @@ def take_a_number(katz_deli, new_customer)
   katz_deli.push(new_customer)
   katz_deli.each_with_index do |customer_in_line, index|
     puts "Welcome, #{customer_in_line}. You are number #{index + 1} in line."
-  end
+    end
   end
 
 
