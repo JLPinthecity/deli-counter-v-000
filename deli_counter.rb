@@ -14,7 +14,7 @@ def line(katz_deli)
       binding.pry
       puts "The line is currently: #{index + 1}. #{customer}"
 
-
+  end
   end
 end
 
