@@ -14,7 +14,7 @@ end
 
 
 def take_a_number(katz_deli, new_customer)
-  katz_deli << new_customer
+  katz_deli.push(new_customer)
   katz_deli.each_with_index do |customer_in_line, index|
     puts "Welcome, #{customer_in_line}. You are number #{index + 1} in line."
   end
