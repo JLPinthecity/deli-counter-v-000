@@ -17,7 +17,7 @@ def line(katz_deli)
     end
     end
     line.join(", ")
-      
+
       puts "The line is currently: #{line}"
 
 
