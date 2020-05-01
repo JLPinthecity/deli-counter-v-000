@@ -13,7 +13,7 @@ def line(katz_deli)
       line = []
       line << "#{index + 1}. #{customer}"
       line
-    
+
 
     end
     end
@@ -21,7 +21,7 @@ def line(katz_deli)
       binding.pry
       puts "The line is currently: #{line}"
 
-     
+
 
 end
 
