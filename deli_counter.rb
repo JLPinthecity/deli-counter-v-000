@@ -13,8 +13,8 @@ def line(katz_deli)
     end
     binding.pry
     line.join(" ")
-    puts "The line is currently: #{line}"
   end
+  puts "The line is currently: #{line}"
 end
 
 def take_a_number(katz_deli, new_customer)
