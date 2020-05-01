@@ -10,9 +10,9 @@ def line(katz_deli)
     line = []
     katz_deli.each_with_index do |customer, index|
       line << "#{index + 1}. #{customer}"
-      line.join(", ")
-      puts "The line is currently: #{line}"
     end
+    line.join(", ")
+    puts "The line is currently: #{line}"
   end
 end
 
