@@ -10,13 +10,10 @@ def line(katz_deli)
   else
     line = []
     katz_deli.each_with_index do |customer, index|
-
-
       line << "#{index + 1}. #{customer}"
       line
-      
-     binding.pry
     end
+     binding.pry
     end
     line.join(", ")
 
