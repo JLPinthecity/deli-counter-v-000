@@ -14,10 +14,9 @@ end
 
 
 def take_a_number(katz_deli, new_customer)
-  updated_line = katz_deli << new_customer
-  updated_line.each_with_index do |customer_in_line, index|
-    puts "Welcome, #{customer_in_line}. You are number #{index + 1} in line."
-    end
+  katz_deli << new_customer
+  puts "Welcome, #{new_customer}. You are number #{katz_deli.length} in line."
+    
   end
 
 
