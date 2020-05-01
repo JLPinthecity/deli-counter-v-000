@@ -16,12 +16,13 @@ def line(katz_deli)
     
 
     end
+    end
     line.join(", ")
       binding.pry
       puts "The line is currently: #{line}"
 
-     end
-  end
+     
+
 end
 
 
