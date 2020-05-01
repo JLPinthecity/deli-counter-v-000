@@ -16,7 +16,7 @@ end
 def take_a_number(katz_deli, new_customer)
   katz_deli.each_with_index do |customer_in_line|
     
-  
+
 
 #new customers take a number
 
