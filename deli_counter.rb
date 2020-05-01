@@ -11,20 +11,11 @@ def line(katz_deli)
     line = []
     katz_deli.each_with_index do |customer, index|
       line << "#{index + 1}. #{customer}"
-      line
     end
-     binding.pry
-    end
+  end
     line.join(", ")
-
-      puts "The line is currently: #{line}"
-
-
-
+    puts "The line is currently: #{line}"
 end
-
-
-
 
 def take_a_number(katz_deli, new_customer)
   katz_deli << new_customer
