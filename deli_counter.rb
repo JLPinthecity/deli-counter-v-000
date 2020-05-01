@@ -6,13 +6,11 @@ def line(deli)
   if deli.empty?
     puts "The line is currently empty."
   else
-    line = []
+    current_line = "The line is currently:"
     deli.each_with_index do |customer, index|
-      line << "#{index + 1}. #{customer}"
+      current_line << "#{index + 1}. #{customer}"
     end
-    line.join(" ")
   end
-  puts "The line is currently: #{line}"
 end
 
 def take_a_number(katz_deli, new_customer)
