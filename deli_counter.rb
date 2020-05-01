@@ -14,7 +14,7 @@ def line(katz_deli)
       binding.pry
       line.split(", ")
       puts "The line is currently: #{line}"
-      
+
      end
   end
 end
