@@ -23,4 +23,3 @@ def take_a_number(katz_deli, new_customer)
 
 #new customers take a number
 #puts the person's name along with their position in line.
-
