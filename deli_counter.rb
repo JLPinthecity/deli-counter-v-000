@@ -12,8 +12,7 @@ def line(katz_deli)
       binding.pry
       line = []
       new_customer = "#{index + 1}. #{customer}"
-      line
-
+      line << new_customer
 
     end
     end
