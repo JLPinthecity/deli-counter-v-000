@@ -11,7 +11,6 @@ def line(katz_deli)
     katz_deli.each_with_index do |customer, index|
       line << "#{index + 1}. #{customer}"
     end
-    binding.pry
     line.join(" ")
   end
   puts "The line is currently: #{line}"
