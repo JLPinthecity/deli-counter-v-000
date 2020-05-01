@@ -13,7 +13,8 @@ end
 
 
 
-def take_a_number
+def take_a_number(katz_deli, new_customer)
 
+#new customers take a number
 
 end
