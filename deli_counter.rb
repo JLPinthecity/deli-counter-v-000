@@ -22,7 +22,7 @@ def take_a_number(katz_deli, new_customer)
 end
 
 def now_serving(katz_deli)
-   if katz.deli.size == 0
+   if katz_deli.size == 0
      puts "There is nobody waiting to be served!"
    else "Currently serving: #{katz_deli.first}"
      katz_deli.shift
