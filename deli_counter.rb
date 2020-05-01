@@ -1,9 +1,8 @@
 # Write your code here.
 require 'pry'
-katz_deli = []
+
 
 def line(katz_deli)
- #shows everyone their current place in the line.
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
