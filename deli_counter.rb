@@ -13,10 +13,11 @@ def line(katz_deli)
       line = []
       line << "#{index + 1}. #{customer}"
       line
-      binding.pry
+    
 
     end
     line.join(", ")
+      binding.pry
       puts "The line is currently: #{line}"
 
      end
