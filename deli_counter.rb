@@ -11,6 +11,8 @@ def line(katz_deli)
     katz_deli.each_with_index do |customer, index|
       line = []
       line << "#{index + 1}. #{customer}"
+      line.split(", ")
+      binding.pry
       puts "The line is currently: #{line}"
      end
   end
